@@ -1,5 +1,6 @@
-const backendURL="http://localhost:5000/api/v1"
-
+const backend="http://localhost:5000/api/v1"
+const render="https://portfolio-3-19da.onrender.com/api/v1"
+const backendURL=render
 const summaryApi={
     add: {
         url: `${backendURL}/add`,
